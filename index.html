@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicio - Amayta Patisserie</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="imgs/logo.jpg" alt="Logo">
+            </a>
+        </div>
+        <button id="hamburger" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="navegacion">
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservas.html">Reservas</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/banner rosa.jpg" class="d-block w-100" alt="imgs/banner rosa.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/slider2.jpg" class="d-block w-100" alt="imgs/slider2.jpg">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <main>
+        <div class="titulo-principal">
+            <h1>Amayta Patisserie</h1>
+        </div>
+        <section id="bienvenidos">
+            <h2>Bienvenidos a Amayta Patisserie</h2>
+            <p>Explora nuestros deliciosos productos y conoce más sobre nuestras ofertas y eventos.</p>
+            <a href="#">Reservar</a>
+        </section>
+        <section id="productos">
+            <div class="productos">
+                <div class="producto">
+                    <img src="imgs/cheesecake-menu.jpg" alt="">
+                    <h3 class="titulo-producto">Cheesecake</h3>
+                    <p class="descripcion"> Con mermelada casera de frutos rojos</p>
+                    <p class="precio">$6.500</p>
+                    <div class="botones-producto">
+                        <a class="boton-reservar" href="#">Reservar</a>
+                        <a class="boton-ver-mas" href="#">Ver más</a>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="imgs/pain-au-chocolat menu.jpg" alt="img/pain-au-chocolat menu.jpg">
+                    <h3 class="titulo-producto"> Pain au chocolat</h3>
+                    <p class="descripcion"> Con distintos rellenos</p>
+                    <p class="precio">$3.000</p>
+                    <div class="botones-producto">
+                        <a class="boton-reservar" href="#">Reservar</a>
+                        <a class="boton-ver-mas" href="#">Ver más</a>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="imgs/eclair-menu.jpg" alt="imgs/eclair-menu.jpg">
+                    <h3 class="titulo-producto">Eclair</h3>
+                    <p class="descripcion"> Relleno o simple</p>
+                    <p class="precio">$3.000</p>
+                    <div class="botones-producto">
+                        <a class="boton-reservar" href="#">Reservar</a>
+                        <a class="boton-ver-mas" href="#">Ver más</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="anuncio">
+            <iframe src="anuncio.html" scrolling="no" ></iframe>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="footer">
+            <div class="datos">
+                <p>amaytapatisserie@gmail.com</p>
+                <p>11 15-3207-5130</p>
+                <p>Juncal 1207, C1001 Cdad. Autónoma de Buenos Aires</p>
+            </div>
+            <div class="redes-footer">
+                <ul>
+                    <li><a href="https://www.instagram.com/amayta.patisserie/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+            </div>
+            <div class="links-rapidos">
+                <ul>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservas.html">Reservas</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy; 2024 Amayta Patisserie. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    <script src="js/menu.js"></script>
+</body>
+</html>

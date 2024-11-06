@@ -204,7 +204,7 @@ p, a, li, input, label, span {
     padding: 12px;
 }
 
-#menu h2 {
+#menu h2, #galeria h2 {
     margin: 20px 0;
     text-align: center;
 }
@@ -255,6 +255,23 @@ p, a, li, input, label, span {
 #reservas {
     padding: 40px 12px;
 }
+
+.galeria {
+    display: flex;
+    gap: 10px 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.galeria a {
+    width: 48%;
+}
+
+.galeria a img {
+    width: 100%;
+}
+
 
 .form-reserva h2 {
     text-align: center;
@@ -463,6 +480,10 @@ p, a, li, input, label, span {
         width: 48%;
     }
 
+    .galeria a {
+        width: 24%;
+    }
+
     #anuncio iframe {
         width: 728px;
         height: 90px;
@@ -471,7 +492,7 @@ p, a, li, input, label, span {
 }
 
 @media (min-width: 1200px)  {
-    #productos, .footer, #reservas {
+    #productos, .footer, #reservas, #galeria {
         width: 1200px;
         margin: auto;
     }

@@ -36,43 +36,12 @@
     </nav>
 </header>
 <main>
-    <div class="titulo-principal">
+    <section id="respuesta">
         <h1>Amayta Patisserie</h1>
-    </div>
-    <section id="reservas">
-
-        <div class="reserva">
-            <div class="form-reserva">
-                <h2 class="subtitulo">Reserva tu mesa</h2>
-                <form action="respuestas.php" method="get">
-                    <div class="campos-form">
-                        <label for="name">Nombre:</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="campos-form">
-                        <label for="email">Correo electrónico:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="campos-form">
-                        <label for="date">Fecha:</label>
-                        <input type="date" id="date" name="date" required>
-                    </div>
-                    <div class="campos-form">
-                        <label for="time">Hora:</label>
-                        <input type="time" id="time" name="time" required>
-                    </div>
-                    <div class="campos-form">
-                        <label for="guests">Número de invitados:</label>
-                        <input type="number" id="guests" name="guests" min="1" max="20" required>
-                    </div>
-                    <input class="boton-form-reserva" type="submit" value="Reservar mesa">
-                </form>
-            </div>
-            <div class="img-reserva">
-                <img src="imgs/mesa-reserva.jpg" alt="">
-            </div>
-        </div>
+        <p>Recibimos tu reserva</p>
     </section>
+
+
 </main>
 <footer id="footer">
     <div class="footer">
